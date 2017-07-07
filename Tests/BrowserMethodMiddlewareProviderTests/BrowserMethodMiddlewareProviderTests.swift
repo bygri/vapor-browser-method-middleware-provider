@@ -3,7 +3,7 @@ import BrowserMethodMiddlewareProvider
 import Testing
 import Vapor
 
-class BrowserMethodMiddlewareTests: XCTestCase {
+class BrowserMethodMiddlewareProviderTests: XCTestCase {
 
   func testProvider() throws {
     // Set up Provider on Droplet
@@ -34,7 +34,7 @@ class BrowserMethodMiddlewareTests: XCTestCase {
 
 }
 
-extension BrowserMethodMiddlewareTests {
+extension BrowserMethodMiddlewareProviderTests {
   static let allTests = [
     ("testProvider", testProvider),
   ]

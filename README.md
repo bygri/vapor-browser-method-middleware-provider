@@ -2,7 +2,7 @@
 
 ![Swift](http://img.shields.io/badge/swift-3.1-brightgreen.svg)
 ![Vapor](http://img.shields.io/badge/vapor-2.0-brightgreen.svg)
-[![CircleCI](https://circleci.com/gh/bygri/browser-method-middleware-provider.svg?style=shield)](https://circleci.com/gh/bygri/browser-method-middleware-provider)
+[![CircleCI](https://circleci.com/gh/bygri/vapor-browser-method-middleware-provider.svg?style=shield)](https://circleci.com/gh/bygri/vapor-browser-method-middleware-provider)
 
 Vapor's `ResourceRepresentable` likes to use
 [a wide range of HTTP verbs](https://docs.vapor.codes/2.0/vapor/controllers/#actions),
@@ -18,7 +18,7 @@ This provider allows Vapor to do the same thing.
 Add the dependency to Package.swift:
 
 ```swift
-.Package(url: "https://github.com/bygri/browser-method-middleware-provider.git", majorVersion: 1)
+.Package(url: "https://github.com/bygri/vapor-browser-method-middleware-provider.git", majorVersion: 1)
 ```
 
 Register the provider with the configuration system:
